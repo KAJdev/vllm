@@ -43,12 +43,5 @@
       "12.0",
       "11.7"
     ]
-  },
-  "hub": {
-    "title": "vLLM",
-    "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-    "type": "serverless",
-    "category": "inference",
-    "iconUrl": "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/vllm-color.png"
   }
 }
