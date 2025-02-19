@@ -1,11 +1,9 @@
 {
-  "listing": {
-    "title": "vLLM",
-    "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-    "type": "serverless",
-    "category": "inference",
-    "iconUrl": "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/vllm-color.png"
-  },
+  "title": "vLLM",
+  "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+  "type": "serverless",
+  "category": "inference",
+  "iconUrl": "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/vllm-color.png",
   "config": {
     "runsOn": "GPU",
     "gpuIds": "ADA_80_PRO",
