@@ -2,7 +2,7 @@
   "title": "vLLM",
   "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
   "type": "serverless",
-  "category": "inference",
+  "category": "language",
   "iconUrl": "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/vllm-color.png",
   "config": {
     "runsOn": "GPU",
@@ -10,44 +10,11 @@
     "containerDiskInGb": 100,
     "env": [
       {
-        "key": "STATIC_VARIABLE",
-        "value": "static value"
-      },
-      {
         "key": "MODEL_NAME",
         "input": {
           "type": "huggingface",
           "name": "Model Name",
           "description": "The model you want to run"
-        }
-      },
-      {
-        "key": "SOME_NUMBER_VARIABLE",
-        "input": {
-          "type": "number",
-          "min": 1,
-          "max": 10,
-          "step": 2,
-          "name": "A Number",
-          "description": "A number from 1 to 10 with a step of 2"
-        }
-      },
-      {
-        "key": "SOME_SELECT_VARIABLE",
-        "input": {
-          "type": "string",
-          "options": [
-            {
-              "label": "First Choice",
-              "value": "first"
-            },
-            {
-              "label": "Second Choice",
-              "value": "second"
-            }
-          ],
-          "name": "A select variable",
-          "description": "can be either first choice or second choice"
         }
       }
     ]
