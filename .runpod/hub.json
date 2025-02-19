@@ -16,7 +16,7 @@
       {
         "key": "MODEL_NAME",
         "input": {
-          "type": "huggingface_model",
+          "type": "huggingface",
           "name": "Model Name",
           "description": "The model you want to run"
         }
