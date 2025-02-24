@@ -1,4 +1,4 @@
-[![RunPod](https://zeke-api.runpod.dev/badge/kajdev/vllm)](https://google.com)
+[![RunPod](https://zeke-api.runpod.dev/badge/kajdev/vllm)](http://localhost:3000/console/hub/kajdev/vllm)
 
 vLLM is a fast and easy-to-use library for LLM inference and serving.
 
